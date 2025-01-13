@@ -8,4 +8,5 @@ return [
     'extra_payment' => 'Extra Monthly Payment (€):',
     'one_time_payment' => 'One-Time Payment (€):',
     'calculate' => 'Calculate',
+    'one_time_payment_date' => 'Date of one-time payment:',
 ];

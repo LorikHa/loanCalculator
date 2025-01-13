@@ -8,4 +8,5 @@ return [
     'extra_payment' => 'Pagesë Extra Mujore (€):',
     'one_time_payment' => 'Pagesë Njëherëshe (€):',
     'calculate' => 'Llogarit',
+    'one_time_payment_date' => 'Data e pagesës njëherëshe:',
 ];
