@@ -42,10 +42,12 @@
             <img src="{{ asset('images/logo.png') }}" alt="Loan Calculator" style="height: 40px;" class="me-2">
             <span>@lang('messages.loan_calculator')</span>
         </a>
-        <div>
-            <a href="{{ url('locale/en') }}" class="btn btn-outline-primary btn-sm me-2">English</a>
-            <a href="{{ url('locale/sq') }}" class="btn btn-outline-primary btn-sm">Shqip</a>
-        </div>
+        @if (!Route::is('loan.calculate'))
+            <div>
+                <a href="{{ url('locale/en') }}" class="btn btn-outline-primary btn-sm me-2">English</a>
+                <a href="{{ url('locale/sq') }}" class="btn btn-outline-primary btn-sm">Shqip</a>
+            </div>
+        @endif
     </div>
 </nav>
 <div class="container mt-4">
